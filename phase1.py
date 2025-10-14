@@ -38,15 +38,15 @@ def parse_brief(txt: str) -> dict:
   email = m_email.group(0) if m_email else ""
 
 return {
-  "company": "Retail Group",
-  "country": country,
-  "cities": cities,
-  "need": need,
-  "languages": langs,
-  "budget_usd": budget,
-  "timeline_weeks": weeks,
-  "contact_email": email,
-  }
+    "company": "Retail Group",
+    "country": country,
+    "cities": cities,
+    "need": need,
+    "languages": langs,
+    "budget_usd": budget,
+    "timeline_weeks": weeks,
+    "contact_email": email,
+}
 
 if __name__ == "__main__":
   messy = ("We’re a Peru-based retail group opening pop-ups in Lima and Arequipa. Need an AI-driven RFP/proposal flow (Spanish and English), push lead records into CRM, and track budgets. Target: launch in 4 weeks. Budget: ~USD 12–15k. Contact: camila.ramos@retail.pe")
