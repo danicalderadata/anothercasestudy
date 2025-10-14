@@ -37,7 +37,7 @@ def parse_brief(txt: str) -> dict:
   m_email = EMAIL_RE.search(txt)
   email = m_email.group(0) if m_email else ""
 
-return = {
+return {
   "company": "Retail Group",
   "country": country,
   "cities": cities,
